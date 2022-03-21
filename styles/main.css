@@ -271,7 +271,7 @@ color: #DEDEDE;
     margin: 0 114px;
     margin-top: 20px;
     margin-bottom: 50px;
-    background-image: url(/images/cart-menu.svg);
+    background-image: url(../images/cart-menu.svg);
     background-repeat: no-repeat;
     background-position: 21% center;
     padding: 7px 0 7px 22px; 
