@@ -146,7 +146,7 @@ color: #DEDEDE;
     background-position: center center;
     background-size: cover;
     padding: 100px 100px 120px 100px;
-    margin-bottom: 100px;
+    margin-bottom: 103px;
     color:#fff;
 }
 .banner-title{
@@ -198,7 +198,7 @@ color: #DEDEDE;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin-bottom: 34px;
+    margin-bottom: 37px;
 
 }
 .menu-title{
@@ -225,7 +225,8 @@ color: #DEDEDE;
 .menu-grid{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    gap:20px;
+    gap: 0px 20px;
+    margin-bottom: 52px;
 }
 .menu-grid-cover{
     width: 100%;
@@ -267,19 +268,15 @@ color: #DEDEDE;
     text-align: center;
     width: 152px;
     height: 38px;
-    position: relative;
     margin: 0 114px;
     margin-top: 20px;
     margin-bottom: 50px;
     background-image: url(/images/cart-menu.svg);
     background-repeat: no-repeat;
-    background-position: 15% center;
-    
-
+    background-position: 21% center;
+    padding: 7px 0 7px 22px; 
+    border:0px;
 } 
-.menu-grid-icon{
-    
-}
 .menu-grid-text{
     font-weight: 700;
     font-size: 14px;
@@ -288,4 +285,10 @@ color: #DEDEDE;
     text-transform: uppercase;
     color: #1E2F40;
     text-align: center;
+}
+.menu-title-dop{
+    font-weight: 700;
+    font-size: 44px;
+    text-transform: uppercase;
+    color: #1B2A49;
 }
