@@ -55,7 +55,7 @@ header{
     display: block;
 }
 .header-nav a.active::after{
-       background-color: #ffc725;
+    background-color: #ffc725;
 }
 .button {
     display: flex;
@@ -265,7 +265,7 @@ color: #DEDEDE;
 .menu-grid-btn{
     background: #FBB731;
     border-radius: 5px;
-    text-align: center;
+    
     width: 152px;
     height: 38px;
     margin: 0 114px;
@@ -293,66 +293,61 @@ color: #DEDEDE;
     text-transform: uppercase;
     color: #1B2A49;
 }
-.footer{
-    background:#1E2F40;
+.footer {
+    background: #1E2F40;
     color: #fff;
     padding-top: 117px;
     padding-bottom: 106px;
-    margin-top: 75px;
+    margin-top: 140px;
 }
-.footer-box{
-    display: flex;
-    justify-content: space-between;
+
+.footer-box {
+   display: flex;
+   justify-content: space-between; 
 }
-.logo{
+.footer-logo {
     width: 63px;
     height: 56px;
-    padding-top: 14px;
 }
-.item{
+.footer-item {
     flex: 0 0 auto;
 }
-.item h2{
+.footer-item h2 {
     font-size: 20px;
     font-weight: 800;
     text-transform: uppercase;
-    margin-bottom:12px ;
+    margin-bottom: 19px;
+    margin-top: 0;
 }
-.item ul,
-.tel ul {
-    list-style-type: none;
-}
-.item li {
+.footer-item li {
     margin-bottom: 9px;
     font-family: 'Open Sans', sans-serif;
     font-size: 15px;
+    color: #FAF9F9;
     font-weight: 700;
     line-height: 24px;
 }
-.item a {
-    color:#DEDEDE;
+.footer-item a {
+    color: #DEDEDE;
     text-decoration: none;
     font-weight: 400;
 }
-.item span{
-    color:#DEDEDE;
+.footer-item span {
+    color: #DEDEDE;
     display: block;
     font-weight: 400;
-    padding-left: 25px;
-    padding-top: 4px;
-
+    margin-bottom: 2px;
 }
-
-.tel ul {
+.footer-tel ul {
     font-size: 20px;
-    color: #FDC830;
-    
-    
+    font-weight:900;
+    color: #FBB731;
+    margin-top: 0;
 }
-.tel li{
+.footer-tel li {
     margin-bottom: 12px;
 }
 .footer-list{
-    padding-left: 21px;
-    padding-top: 2px;
+    padding: 0;
+    list-style-type: none;
 }
