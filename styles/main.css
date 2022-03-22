@@ -276,6 +276,7 @@ color: #DEDEDE;
     background-position: 21% center;
     padding: 7px 0 7px 22px; 
     border:0px;
+    cursor: pointer;
 } 
 .menu-grid-text{
     font-weight: 700;
@@ -291,4 +292,67 @@ color: #DEDEDE;
     font-size: 44px;
     text-transform: uppercase;
     color: #1B2A49;
+}
+.footer{
+    background:#1E2F40;
+    color: #fff;
+    padding-top: 117px;
+    padding-bottom: 106px;
+    margin-top: 75px;
+}
+.footer-box{
+    display: flex;
+    justify-content: space-between;
+}
+.logo{
+    width: 63px;
+    height: 56px;
+    padding-top: 14px;
+}
+.item{
+    flex: 0 0 auto;
+}
+.item h2{
+    font-size: 20px;
+    font-weight: 800;
+    text-transform: uppercase;
+    margin-bottom:12px ;
+}
+.item ul,
+.tel ul {
+    list-style-type: none;
+}
+.item li {
+    margin-bottom: 9px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 24px;
+}
+.item a {
+    color:#DEDEDE;
+    text-decoration: none;
+    font-weight: 400;
+}
+.item span{
+    color:#DEDEDE;
+    display: block;
+    font-weight: 400;
+    padding-left: 25px;
+    padding-top: 4px;
+
+}
+
+.tel ul {
+    font-size: 20px;
+    color: #FDC830;
+    
+    
+}
+.tel li{
+    margin-bottom: 12px;
+}
+.footer-list{
+    padding-left: 21px;
+    padding-top: 2px;
 }
