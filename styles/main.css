@@ -427,6 +427,16 @@ color: #DEDEDE;
     text-transform: uppercase;
     font-size: 14px;
     font-weight: 700;
+    border: 1px solid;
+}
+
+.content-link:hover{
+    background-color: transparent;
+    color:#ffc725
+}
+.promo a:hover{
+    background-color: transparent;
+    color:#ffc725;
 }
 .visual {
     flex-grow: 1;
