@@ -453,6 +453,7 @@ color: #DEDEDE;
     font-size: 14px;
     font-weight: 700;
     border: 1px solid;
+    transition: 0.5s;
 }
 
 .content-link:hover{
