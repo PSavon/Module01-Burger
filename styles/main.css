@@ -47,6 +47,7 @@ header{
     font-size: 20px;
     color:#443737;
     text-decoration: none;
+    transition: 0.2s;
 }
 .header-nav a:hover{
     color:#ffc725;
@@ -116,6 +117,7 @@ header{
     font-size: 15px;
     font-family: 'Open Sans', sans-serif;
     text-decoration: none;
+    transition: 0.2s;
 }
 .breadcrumbs a:hover{
     color:#ffc725;
@@ -290,6 +292,7 @@ color: #DEDEDE;
     padding: 7px 0 7px 22px; 
     border:0px;
     cursor: pointer;
+    transition: 0.2s;
 } 
 .menu-grid-btn:hover{
     background-color: #F37335;
@@ -302,7 +305,6 @@ color: #DEDEDE;
     text-transform: uppercase;
     color: #1E2F40;
     text-align: center;
-    transition: 0.2s;
 }
 .menu-title-dop{
     font-weight: 700;
@@ -348,9 +350,10 @@ color: #DEDEDE;
     color: #DEDEDE;
     text-decoration: none;
     font-weight: 400;
+    transition: 0.2s;
 }
 .footer-list a:hover{
-    color:yellow;
+    color:#FBB731;
 
 }
 .footer-item span {
@@ -453,7 +456,9 @@ color: #DEDEDE;
     font-size: 14px;
     font-weight: 700;
     border: 1px solid;
-    transition: 0.5s;
+}
+.content-link{
+    transition: 0.2s;
 }
 
 .content-link:hover{
@@ -569,5 +574,8 @@ color: #DEDEDE;
     .footer-box{
         box-sizing: border-box;
         flex-wrap: wrap;
+    }
+    .footer-list-tel{
+        margin-left: 143px; 
     }
 }
