@@ -24,7 +24,7 @@ header{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    flex-basis: 76.5%;
+    flex-basis: 68.5%;
 }
 .header-logo{
     display: block;
@@ -39,7 +39,7 @@ header{
     display: flex;
     padding-left: 0;
     gap:46px;
-    padding-right: 96px;
+   
     padding-top: 2px;
 }
 .header-nav a{
