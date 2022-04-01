@@ -618,9 +618,7 @@ color: #DEDEDE;
     }
     .footer-list + .footer-list-tel {
         display: block;
-    }
-    
-    
+    }    
 }
 
 /* Modal */
@@ -676,6 +674,11 @@ color: #DEDEDE;
     }
 }
 @media (max-width: 567px) {
+    
+    .header-logo {
+        width: 150px;
+        height: 48px;
+    }
     .breadcrumbs a{
         font-size: 14px;
     }
